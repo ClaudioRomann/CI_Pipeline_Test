@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image: php-css-js-example
+    ports:
+      - "8080:80"
+    volumes:
+      - /Users/CRoman/Dev-Stuff/fun/CI_Pipeline_test:/var/www/html
